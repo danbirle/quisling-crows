@@ -1,10 +1,10 @@
-import App from './App.svelte';
+import Greeting from './Greeting.svelte';
 
-const app = new App({
+const greeting = new Greeting({
 	target: document.body,
 	props: {
 		name: 'Player 1'
 	}
-});
+})
 
-export default app;
+export default greeting;
